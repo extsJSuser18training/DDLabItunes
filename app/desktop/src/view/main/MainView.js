@@ -36,7 +36,13 @@ Ext.define('modern-tunes.view.main.MainView', {
     bind: {
       store: '{tunes}'
   }
-}]
+},
+{
+  title: "Grid",
+html : "<h1>tunes grid </h1>"
+}
+
+]
   // items: [
   //   {
   //     xtype: 'component',
